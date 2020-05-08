@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BikeSharing.UserPage"
+             Title="User"             
+             IconImageSource="baseline_account_circle_black_36.png"
+             BackgroundColor="White"
+             xmlns:local="clr-namespace:BikeSharing;assembly=BikeSharing">    
+    
+    <ContentPage.Content>
+        <local:GradientColorStack StartColor="#FFFFFF" EndColor="#2196F3">
+
+            <StackLayout Orientation="Vertical"
+                         VerticalOptions="FillAndExpand"
+                         Padding="20,20,20,20">
+                
+                <StackLayout Orientation="Horizontal" 
+                             Padding="40,20,0,0" 
+                             Spacing="10" 
+                             VerticalOptions="Start">
+                    <Image Source="baseline_account_circle_black_48"/>
+                    <StackLayout Orientation="Vertical" Spacing="10" Padding="0,10,0,0">
+                        <Label x:Name="NomeUser"
+                               TextColor="Black"
+                               FontAttributes="Bold"
+                               FontSize="Medium"/>
+                        <Label x:Name="CognomeUser"
+                               TextColor="Black"
+                               FontAttributes="Bold"
+                               FontSize="Medium"/>
+                        <Label x:Name="EmailUser"
+                               TextColor="Black"
+                               FontAttributes="Bold"
+                               FontSize="Medium"/>
+                    </StackLayout>                   
+                </StackLayout>
+
+                <Label Text="Riepilogo Ordini"
+                       HorizontalOptions="Center"
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       TextColor="Black"/>
+
+                <ListView HorizontalOptions="Fill"
+                      VerticalOptions="Fill"
+                      x:Name="info_ordini"/>
+                
+
+
+                <local:CustomButtons Text="Logout"
+                                     FontAttributes="Bold"
+                                     CustomBorderColor="Black"
+                                     CustomBackgroundColor="Transparent"
+                                     TextColor="Black"
+                                     CustomBorderRadius="21"
+                                     CustomBorderWidth="7"
+                                     HorizontalOptions="End"
+                                     VerticalOptions="EndAndExpand"
+                                     Clicked="Logout_Clicked"/>
+
+            </StackLayout>            
+                
+
+           
+            
+        </local:GradientColorStack>
+    </ContentPage.Content>
+</ContentPage>

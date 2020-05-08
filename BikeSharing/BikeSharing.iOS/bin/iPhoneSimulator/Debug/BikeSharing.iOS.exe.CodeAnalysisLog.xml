@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2019\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="16.0">
+ <Targets>
+  <Target Name="C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing.iOS\bin\iPhoneSimulator\Debug\BikeSharing.iOS.exe">
+   <Modules>
+    <Module Name="bikesharing.ios.exe">
+     <Namespaces>
+      <Namespace Name="BikeSharing.iOS">
+       <Types>
+        <Type Name="AppDelegate" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#FinishedLaunching(UIKit.UIApplication,Foundation.NSDictionary)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2019-09-30 15:02:43Z" FixCategory="DependsOnFix">
+             <Issue Name="MethodReference" Certainty="99" Level="CriticalError" Path="C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing.iOS" File="AppDelegate.cs" Line="21">Il metodo Transparent 'AppDelegate.FinishedLaunching(UIApplication, NSDictionary)' fa riferimento al metodo SecurityCritical 'App.App()'. Per permettere che questo riferimento venga autorizzato dalle regole di trasparenza per la sicurezza, 'AppDelegate.FinishedLaunching(UIApplication, NSDictionary)' deve diventare SecurityCritical o SafeCritical o 'App.App()' deve diventare SecuritySafeCritical o Transparent.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140">
+   <Name>Il codice Transparent non deve far riferimento a elementi SecurityCritical</Name>
+   <Description>Il codice Transparent non può fare riferimento a metodi, tipi o campi SecurityCritical. In fase di esecuzione tali riferimenti restituiranno MemberAccessExceptions o TypeLoadExceptions.</Description>
+   <Resolution Name="MethodReference">Il metodo Transparent {0} fa riferimento al metodo SecurityCritical {1}. Per permettere che questo riferimento venga autorizzato dalle regole di trasparenza per la sicurezza, {0} deve diventare SecurityCritical o SafeCritical o {1} deve diventare SecuritySafeCritical o Transparent.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264475(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="99">CriticalError</MessageLevel>
+   <File Name="securitytransparencyrules.dll" Version="4.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Categoria</String>
+  <String Key="Certainty">Attendibilità</String>
+  <String Key="CollapseAll">Comprimi tutto</String>
+  <String Key="CheckId">ID controllo</String>
+  <String Key="Error">Errore</String>
+  <String Key="Errors">errori</String>
+  <String Key="ExpandAll">Espandi tutto</String>
+  <String Key="Help">Guida</String>
+  <String Key="Line">Riga</String>
+  <String Key="Messages">messaggi</String>
+  <String Key="LocationNotStoredInPdb">[Percorso non archiviato nel PDB]</String>
+  <String Key="Project">Progetto</String>
+  <String Key="Resolution">Risoluzione</String>
+  <String Key="Rule">Regola</String>
+  <String Key="RuleFile">File delle regole</String>
+  <String Key="RuleDescription">Descrizione regola</String>
+  <String Key="Source">Origine</String>
+  <String Key="Status">Stato</String>
+  <String Key="Target">Destinazione</String>
+  <String Key="Warning">Avviso</String>
+  <String Key="Warnings">avvisi</String>
+  <String Key="ReportTitle">Report di analisi codice</String>
+ </Localized>
+</FxCopReport>

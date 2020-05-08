@@ -1,0 +1,91 @@
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\BikeSharing.deps.json
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\BikeSharing.dll
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\ref\BikeSharing.dll
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\BikeSharing.pdb
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikePage1.xaml.g.cs
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikePage2.xaml.g.cs
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikePage3.xaml.g.cs
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BottomBarPage.xaml.g.cs
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\InfoPage.xaml.g.cs
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\MapPage.xaml.g.cs
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\PopupStation.xaml.g.cs
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\SignupPage.xaml.g.cs
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\SlidePage.xaml.g.cs
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\UserPage.xaml.g.cs
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.csproj.CoreCompileInputs.cache
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.AssemblyInfoInputs.cache
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.AssemblyInfo.cs
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.csproj.Fody.CopyLocal.cache
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.dll
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\ref\BikeSharing.dll
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.pdb
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.csprojAssemblyReference.cache
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\Utente\source\repos\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.csproj.CopyComplete
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\BikeSharing.deps.json
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\BikeSharing.dll
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\ref\BikeSharing.dll
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\BikeSharing.pdb
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.csprojAssemblyReference.cache
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikePage1.xaml.g.cs
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikePage2.xaml.g.cs
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikePage3.xaml.g.cs
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BottomBarPage.xaml.g.cs
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\InfoPage.xaml.g.cs
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\MapPage.xaml.g.cs
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\PopupStation.xaml.g.cs
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\SignupPage.xaml.g.cs
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\SlidePage.xaml.g.cs
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\UserPage.xaml.g.cs
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.csproj.CoreCompileInputs.cache
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.AssemblyInfoInputs.cache
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.AssemblyInfo.cs
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.csproj.Fody.CopyLocal.cache
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.csproj.CopyComplete
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.dll
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\ref\BikeSharing.dll
+C:\Users\Ricciardi Nicola\Desktop\PMob\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.pdb
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\BikeSharing.deps.json
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\BikeSharing.dll
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\ref\BikeSharing.dll
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\BikeSharing.pdb
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikePage1.xaml.g.cs
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikePage2.xaml.g.cs
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikePage3.xaml.g.cs
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BottomBarPage.xaml.g.cs
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\InfoPage.xaml.g.cs
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\MapPage.xaml.g.cs
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\PopupStation.xaml.g.cs
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\PopupStationAvailable.xaml.g.cs
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\SignupPage.xaml.g.cs
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\SlidePage.xaml.g.cs
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\UserPage.xaml.g.cs
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.csproj.CoreCompileInputs.cache
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.AssemblyInfoInputs.cache
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.AssemblyInfo.cs
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.csproj.Fody.CopyLocal.cache
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.csproj.CopyComplete
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.dll
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\ref\BikeSharing.dll
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.pdb
+C:\Users\Utente\Desktop\PMobBestemmiaContinua\BikeSharing\BikeSharing\BikeSharing\obj\Debug\netstandard2.0\BikeSharing.csprojAssemblyReference.cache

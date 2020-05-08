@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BikeSharing.LoginPage"
+             xmlns:customview="clr-namespace:BikeSharing"
+             xmlns:local="clr-namespace:BikeSharing;assembly=BikeSharing">
+    
+    <ContentPage.Content>
+        <local:GradientColorStack StartColor="#FFFFFF" EndColor="#2196F3">
+            <StackLayout VerticalOptions="FillAndExpand">
+                <StackLayout HorizontalOptions="Start"
+                             Padding="20,10,0,0">
+                    <Label Text="LOGIN"
+                           FontSize="36"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           TextColor="#000000"/>
+                </StackLayout>
+               
+
+                <StackLayout Orientation="Vertical"                             
+                             Padding="30,50,30,0"
+                             Spacing="15">
+                   <local:CustomEntry TextColor="Black" 
+                                      PlaceholderColor="Black"                                      
+                                      Placeholder="Email" 
+                                      HorizontalOptions="FillAndExpand"
+                                      x:Name="Email"
+                                      
+                                      Image="baseline_email_black_36"
+                                      LineColor="Black"
+                                      CornerRadius="21"  
+                                      IsCurvedCornersEnabled="True"                                      
+                                      BorderWidth="7"/>
+
+                    <local:CustomEntry TextColor="Black" 
+                                       PlaceholderColor="Black"
+                                       Placeholder="Password" 
+                                       HorizontalOptions="FillAndExpand"
+                                       IsPassword="True"
+                                       x:Name="Password"
+                                       
+                                       Image="baseline_lock_black_36"
+                                       LineColor="Black"
+                                       CornerRadius="21"  
+                                       IsCurvedCornersEnabled="True"                                      
+                                       BorderWidth="7"/>
+                </StackLayout>
+
+
+                <StackLayout VerticalOptions="EndAndExpand"
+                             Orientation="Horizontal"
+                             HorizontalOptions="End"
+                             Padding="0,0,20,20">
+
+                    <local:CustomButtons Text="CONFIRM"
+                                         FontAttributes="Bold"
+                                         CustomBorderColor="Black"
+                                         CustomBackgroundColor="Transparent"
+                                         TextColor="Black"
+                                         CustomBorderRadius="21"
+                                         CustomBorderWidth="7"
+                                         Clicked="LoadTabbedPage_Clicked"/>
+                </StackLayout>
+
+               
+                
+                
+                
+            </StackLayout>
+            
+        </local:GradientColorStack>
+        
+    </ContentPage.Content>
+    
+</ContentPage>

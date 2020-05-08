@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BikeSharing.MapPage"
+             Title="Map"
+             IconImageSource="baseline_map_black_36.png"
+             BackgroundImageSource="map.png">
+    
+    <Grid ColumnSpacing="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="115"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="145"/>
+            <ColumnDefinition Width="105"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        
+
+        <Button BackgroundColor="Transparent"
+                Grid.Row="0" Grid.Column="1"               
+                VerticalOptions="End" HorizontalOptions="Center"
+                HeightRequest="50" WidthRequest="30"
+                Clicked="Station1_Clicked"/>
+        
+        <Button BackgroundColor="Transparent"
+                Grid.Row="1" Grid.Column="0"               
+                VerticalOptions="Start" HorizontalOptions="End"
+                HeightRequest="50" WidthRequest="30"
+                Clicked="Station2_Clicked"/>
+        
+        <Button BackgroundColor="Transparent" 
+                Grid.Row="1" Grid.Column="1"               
+                VerticalOptions="Center" HorizontalOptions="Start"
+                HeightRequest="50" WidthRequest="30"
+                Clicked="Station3_Clicked"/>
+        
+        <Button BackgroundColor="Transparent" 
+                Grid.Row="2" Grid.Column="1"                
+                VerticalOptions="Center" HorizontalOptions="Center"
+                HeightRequest="50" WidthRequest="30"
+                Clicked="Station4_Clicked"/>
+        
+        <Button BackgroundColor="Transparent"
+                Grid.Row="4" Grid.Column="1"               
+                VerticalOptions="Start" HorizontalOptions="Center"
+                HeightRequest="50" WidthRequest="30"
+                Clicked="Station5_Clicked"/>
+    </Grid>
+    
+</ContentPage>

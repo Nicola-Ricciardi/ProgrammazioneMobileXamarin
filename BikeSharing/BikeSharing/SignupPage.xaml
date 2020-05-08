@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BikeSharing.SignupPage"
+             
+             xmlns:local="clr-namespace:BikeSharing;assembly=BikeSharing"
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit">
+    
+    <ContentPage.Content>
+
+        <local:GradientColorStack StartColor="#FFFFFF" EndColor="#2196F3">
+
+            <StackLayout VerticalOptions="FillAndExpand">
+                <StackLayout HorizontalOptions="Start"
+                             Padding="20,10,0,0">
+                    <Label Text="SIGNUP"
+                           FontSize="36"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           TextColor="#000000"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" Padding="30,20,30,0">
+                    <local:CustomEntry TextColor="Black" 
+                                       PlaceholderColor="Black"                                      
+                                       Placeholder="Insert First Name" 
+                                       HorizontalOptions="FillAndExpand"
+                                       
+                                      
+                                       LineColor="Black"
+                                       CornerRadius="21"  
+                                       IsCurvedCornersEnabled="True"                                      
+                                       BorderWidth="7"
+                                       
+                                       ErrorText="{Binding User.FirstName.NotValidMessageError}"
+                                       BorderErrorColor="Red"
+                                       Text="{Binding User.FirstName.Name}"                                       
+                                       IsBorderErrorVisible="{Binding User.FirstName.IsNotValid, Mode=TwoWay}">
+                        <local:CustomEntry.Behaviors>
+                            <local:EmptyEntryValidatorBehavior/>
+                        </local:CustomEntry.Behaviors>
+
+                    </local:CustomEntry>
+
+
+                    <local:CustomEntry TextColor="Black" 
+                                       PlaceholderColor="Black"                                      
+                                       Placeholder="Insert Last Name" 
+                                       HorizontalOptions="FillAndExpand"   
+                                       
+                                      
+                                       LineColor="Black"
+                                       CornerRadius="21"  
+                                       IsCurvedCornersEnabled="True"                                      
+                                       BorderWidth="7"
+                                       
+                                       ErrorText="{Binding User.LastName.NotValidMessageError}"
+                                       BorderErrorColor="Red"
+                                       Text="{Binding User.LastName.Name}"                                       
+                                       IsBorderErrorVisible="{Binding User.LastName.IsNotValid, Mode=TwoWay}">
+                        <local:CustomEntry.Behaviors>
+                            <local:EmptyEntryValidatorBehavior />
+                        </local:CustomEntry.Behaviors>
+                        
+                    </local:CustomEntry>
+
+                    <local:CustomEntry TextColor="Black" 
+                                       PlaceholderColor="Black"                                      
+                                       Placeholder="Insert Email" 
+                                       HorizontalOptions="FillAndExpand"
+                                       
+                                      
+                                       LineColor="Black"
+                                       CornerRadius="21"  
+                                       IsCurvedCornersEnabled="True"                                      
+                                       BorderWidth="7"
+                                       
+                                       ErrorText="{Binding User.Email.NotValidMessageError}"
+                                       BorderErrorColor="Red"
+                                       Text="{Binding User.Email.Name}"                                       
+                                       IsBorderErrorVisible="{Binding User.Email.IsNotValid, Mode=TwoWay}">
+                        <local:CustomEntry.Behaviors>
+                            <local:EmptyEntryValidatorBehavior />
+                        </local:CustomEntry.Behaviors>
+                    
+                    </local:CustomEntry>                    
+
+                    <local:CustomEntry TextColor="Black" 
+                                       PlaceholderColor="Black"                                      
+                                       Placeholder="Insert Password" 
+                                       HorizontalOptions="FillAndExpand" 
+                                       IsPassword="True"                                       
+                                      
+                                       LineColor="Black"
+                                       CornerRadius="21"  
+                                       IsCurvedCornersEnabled="True"                                      
+                                       BorderWidth="7"
+                                       
+                                       ErrorText="{Binding User.Password.NotValidMessageError}"
+                                       BorderErrorColor="Red"
+                                       Text="{Binding User.Password.Name}"                                       
+                                       IsBorderErrorVisible="{Binding User.Password.IsNotValid, Mode=TwoWay}">
+                        <local:CustomEntry.Behaviors>
+                            <local:EmptyEntryValidatorBehavior />
+                        </local:CustomEntry.Behaviors>
+                        <local:CustomEntry.Effects>
+                            <local:ShowHidePassEffect />
+                        </local:CustomEntry.Effects>                        
+                    </local:CustomEntry>
+
+                    <local:CustomEntry TextColor="Black" 
+                                       PlaceholderColor="Black"                                      
+                                       Placeholder="Confirm Password" 
+                                       HorizontalOptions="FillAndExpand"
+                                       IsPassword="True"
+                                      
+                                       LineColor="Black"
+                                       CornerRadius="21"  
+                                       IsCurvedCornersEnabled="True"                                      
+                                       BorderWidth="7"
+                                       
+                                       ErrorText="{Binding User.ConfirmPassword.NotValidMessageError}"
+                                       BorderErrorColor="Red"
+                                       Text="{Binding User.ConfirmPassword.Name}"                                       
+                                       IsBorderErrorVisible="{Binding User.ConfirmPassword.IsNotValid, Mode=TwoWay}">
+                        <local:CustomEntry.Behaviors>
+                            <local:EmptyEntryValidatorBehavior />
+                        </local:CustomEntry.Behaviors>
+                        <local:CustomEntry.Effects>
+                            <local:ShowHidePassEffect />
+                        </local:CustomEntry.Effects>
+                    </local:CustomEntry>
+
+                    
+
+
+                    <local:CustomDatePicker Placeholder ="Date of Birth"
+                                            TextColor="Black"
+                                            LineColor="Black"
+                                            CornerRadius="21"
+                                            IsCurvedCornersEnabled="True"
+                                            BorderWidth="7"                                            
+                                            
+                                            BorderErrorColor="Red"
+                                            IsBorderErrorVisible="{Binding User.Birth.IsNotValid, Mode=TwoWay}"
+                                            ErrorText="{Binding User.Birth.NotValidMessageError}"
+                                            Date="{Binding User.Birth.Name, Mode=TwoWay}"
+                                            
+                                            DateSelected="OnDateSelected"
+                                            x:Name="datepicker">
+                        
+                        <local:CustomDatePicker.Behaviors>
+                            <local:DatePickerValidatorBehavior />
+                        </local:CustomDatePicker.Behaviors>
+                    </local:CustomDatePicker>
+                    
+                   
+                    
+                    
+
+                    
+                    <input:RadioButtonGroupView SelectedItem="{Binding User.Sex.Name, Mode=TwoWay}">
+                        <input:RadioButton Text="Male"
+                                           Value="Male"/>
+                        <input:RadioButton Text="Female"
+                                           Value="Female"/>                        
+                    </input:RadioButtonGroupView>
+
+
+                </StackLayout>
+                
+                
+
+                <StackLayout VerticalOptions="EndAndExpand"
+                             Orientation="Horizontal"
+                             HorizontalOptions="End"
+                             Padding="0,0,20,20">
+
+
+                    <local:CustomButtons Text="CONFIRM"
+                                              FontAttributes="Bold"
+                                              CustomBorderColor="Black"
+                                              CustomBackgroundColor="Transparent"
+                                              TextColor="Black"
+                                              CustomBorderRadius="21"
+                                              CustomBorderWidth="7"
+                                         Command="{Binding OnValidationCommand}"/>
+                    
+                </StackLayout>
+
+            </StackLayout>
+        </local:GradientColorStack>
+
+    </ContentPage.Content>
+       
+    
+</ContentPage>

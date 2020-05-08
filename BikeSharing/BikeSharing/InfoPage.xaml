@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BikeSharing.InfoPage"
+             Title="Info"
+             IconImageSource="baseline_info_black_36.png"
+             BackgroundColor="White"
+             xmlns:local="clr-namespace:BikeSharing;assembly=BikeSharing">
+    <ContentPage.Content>
+        <local:GradientColorStack StartColor="#FFFFFF" EndColor="#2196F3">
+            <StackLayout Orientation="Vertical" Padding="20,40,20,0" Spacing="25">
+                <Label Text="INFORMATION"
+                       TextColor="Black"
+                       HorizontalOptions="Center"/>
+                <Label Text="App di BIKE SHARING"
+                       TextColor="Black"/>
+                <Label Text="Versione 3.0 10/09/2019"
+                       TextColor="Black"/>
+                <Label Text="@SHARING INC. 2010-2019"
+                       TextColor="Black"/>
+                <Label Text="LICENZA: BEERWARE"
+                       TextColor="Black"/>
+                <Label Text="XAMARIN SUPPORT: MARSHMALLOW AND NEWER"
+                       TextColor="Black"/>
+                <Label Text="SUPPORTO: MARIA@SUPPORT-BIKE-SHARING.COM"
+                       TextColor="Black"/>
+                <Label Text="SITO WEB: WWW.PREPARAILTRONOMARIA.COM"
+                       TextColor="Black"/>
+            </StackLayout>
+        </local:GradientColorStack>
+    </ContentPage.Content>
+</ContentPage>

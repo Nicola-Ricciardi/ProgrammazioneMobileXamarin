@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BikeSharing.BikePage2"
+             xmlns:local="clr-namespace:BikeSharing;assembly=BikeSharing">
+    <ContentPage.Content>
+        <local:GradientColorStack StartColor="#FFFFFF" EndColor="#2196F3">
+            <StackLayout VerticalOptions="StartAndExpand">
+                <StackLayout Padding="20">
+                    <Image Source="modello3.png"/>
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="Specifiche" HorizontalOptions="Center"/>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        
+
+
+
+
+                        <Label Text="Modello" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center"/>
+                        <Label Text="Da Corsa" Grid.Row="0" Grid.Column="1"/>
+
+                        <Label Text="Altezza" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center"/>
+                        <Label Text="180cm" Grid.Row="1" Grid.Column="1"/>
+
+                        <Label Text="Lunghezza" Grid.Row="2" Grid.Column="0" HorizontalOptions="Center"/>
+                        <Label Text="81cm" Grid.Row="2" Grid.Column="1"/>
+
+                        <Label Text="Telaio" Grid.Row="3" Grid.Column="0" HorizontalOptions="Center"/>
+                        <Label Text="Titanio" Grid.Row="3" Grid.Column="1"/>
+
+                        <Label Text="Freni" Grid.Row="4" Grid.Column="0" HorizontalOptions="Center"/>
+                        <Label Text="Scatto Fisso" Grid.Row="4" Grid.Column="1"/>
+                    </Grid>
+
+                </StackLayout>
+
+            </StackLayout>
+            <StackLayout HorizontalOptions="End" Padding="0,0,20,20">
+                <local:CustomButtons Text="Book"
+                                     FontAttributes="Bold"
+                                     CustomBorderColor="Black"
+                                     CustomBackgroundColor="Transparent"
+                                     TextColor="Black"
+                                     CustomBorderRadius="21"
+                                     CustomBorderWidth="7"
+                                     Clicked="Prenotazione_Clicked"/>
+            </StackLayout>
+        </local:GradientColorStack>
+    </ContentPage.Content>
+</ContentPage>

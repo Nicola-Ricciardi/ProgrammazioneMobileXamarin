@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BikeSharing.MainPage"             
+             BackgroundImageSource="panoramica_ancona_passetto.png"             
+             xmlns:customview="clr-namespace:BikeSharing">
+
+
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Label Text="BIKE SHARING"
+                   FontSize="36"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="#000000"/>
+            </StackLayout>
+
+            <StackLayout VerticalOptions="CenterAndExpand"
+                     Orientation="Horizontal"
+                     HorizontalOptions="Center">
+
+                <customview:CustomButtons Text="SIGN UP"
+                                      FontAttributes="Bold"
+                                      CustomBorderColor="Black"
+                                      CustomBackgroundColor="Transparent"
+                                      TextColor="Black"
+                                      CustomBorderRadius="21"
+                                      CustomBorderWidth="7"
+                                      x:Name="loadSignupPage"
+                                      Clicked="LoadSignupPage_Clicked"/>
+
+                <customview:CustomButtons Text="LOGIN"
+                                      FontAttributes="Bold"
+                                      CustomBorderColor="Black"
+                                      CustomBackgroundColor="Transparent"
+                                      TextColor="Black"
+                                      CustomBorderRadius="21"
+                                      CustomBorderWidth="7"
+                                      x:Name="loadLoginPage"
+                                      Clicked="LoadLoginPage_Clicked"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
